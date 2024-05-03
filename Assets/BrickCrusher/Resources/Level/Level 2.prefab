@@ -1,0 +1,2007 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &391268771944345583
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 391268771944345585}
+  - component: {fileID: 391268771944345587}
+  m_Layer: 11
+  m_Name: 03 Row (3)
+  m_TagString: Block
+  m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &391268771944345585
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 391268771944345583}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 4.66, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 456945214432692314}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &391268771944345587
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 391268771944345583}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c457f842bc3783429c6af74d986e673, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blockType: 1
+  maxHealth: 100
+  blockLink:
+  - STANDARD
+  - TRIANGLE_TOP_RIGHT
+  - TRIANGLE_RIGHT_BOTTOM
+  - TRIANGLE_BOTTOM_LEFT
+  - TRIANGLE_LEFT_TOP
+  - PINNED
+  - METAL
+  - PLUS_BALL
+  - GEM
+  - ROCKET
+  - THREE_DIRRECTION_UP
+  - CANON
+  - PORTAL_IN
+  - PORTAL_OUT
+  - LASER_VERTICAL
+  - LASER_HORIZONTAL
+  - LASER_BOTH
+  - WIPE_BAR_CLOCKWISE
+  - WIPE_BAR_COUNTER_CLOCKWISET
+  - LOCKABLE
+  - LIGHTNING
+  - ICICLE
+  - FREEZING
+--- !u!1 &1220853248333405791
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1220853248333405761}
+  - component: {fileID: 1220853248333405763}
+  m_Layer: 11
+  m_Name: 03 Row (4)
+  m_TagString: Block
+  m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1220853248333405761
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1220853248333405791}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.49, y: 5.15, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 456945214432692314}
+  m_RootOrder: 21
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1220853248333405763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1220853248333405791}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c457f842bc3783429c6af74d986e673, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blockType: 1
+  maxHealth: 5
+  blockLink:
+  - STANDARD
+  - TRIANGLE_TOP_RIGHT
+  - TRIANGLE_RIGHT_BOTTOM
+  - TRIANGLE_BOTTOM_LEFT
+  - TRIANGLE_LEFT_TOP
+  - PINNED
+  - METAL
+  - PLUS_BALL
+  - GEM
+  - ROCKET
+  - THREE_DIRRECTION_UP
+  - CANON
+  - PORTAL_IN
+  - PORTAL_OUT
+  - LASER_VERTICAL
+  - LASER_HORIZONTAL
+  - LASER_BOTH
+  - WIPE_BAR_CLOCKWISE
+  - WIPE_BAR_COUNTER_CLOCKWISET
+  - LOCKABLE
+  - LIGHTNING
+  - ICICLE
+  - FREEZING
+--- !u!1 &1344555006811434626
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1344555006811434652}
+  - component: {fileID: 1344555006811434654}
+  m_Layer: 11
+  m_Name: 02 Row (2)
+  m_TagString: Block
+  m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1344555006811434652
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1344555006811434626}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.49, y: 4.17, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 456945214432692314}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1344555006811434654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1344555006811434626}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c457f842bc3783429c6af74d986e673, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blockType: 1
+  maxHealth: 15
+  blockLink:
+  - STANDARD
+  - TRIANGLE_TOP_RIGHT
+  - TRIANGLE_RIGHT_BOTTOM
+  - TRIANGLE_BOTTOM_LEFT
+  - TRIANGLE_LEFT_TOP
+  - PINNED
+  - METAL
+  - PLUS_BALL
+  - GEM
+  - ROCKET
+  - THREE_DIRRECTION_UP
+  - CANON
+  - PORTAL_IN
+  - PORTAL_OUT
+  - LASER_VERTICAL
+  - LASER_HORIZONTAL
+  - LASER_BOTH
+  - WIPE_BAR_CLOCKWISE
+  - WIPE_BAR_COUNTER_CLOCKWISET
+  - LOCKABLE
+  - LIGHTNING
+  - ICICLE
+  - FREEZING
+--- !u!1 &1508333805387128505
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1508333805387128487}
+  - component: {fileID: 1508333805387128485}
+  m_Layer: 11
+  m_Name: 04 Row (2)
+  m_TagString: Block
+  m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1508333805387128487
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1508333805387128505}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.96, y: 4.17, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 456945214432692314}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1508333805387128485
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1508333805387128505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c457f842bc3783429c6af74d986e673, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blockType: 1
+  maxHealth: 50
+  blockLink:
+  - STANDARD
+  - TRIANGLE_TOP_RIGHT
+  - TRIANGLE_RIGHT_BOTTOM
+  - TRIANGLE_BOTTOM_LEFT
+  - TRIANGLE_LEFT_TOP
+  - PINNED
+  - METAL
+  - PLUS_BALL
+  - GEM
+  - ROCKET
+  - THREE_DIRRECTION_UP
+  - CANON
+  - PORTAL_IN
+  - PORTAL_OUT
+  - LASER_VERTICAL
+  - LASER_HORIZONTAL
+  - LASER_BOTH
+  - WIPE_BAR_CLOCKWISE
+  - WIPE_BAR_COUNTER_CLOCKWISET
+  - LOCKABLE
+  - LIGHTNING
+  - ICICLE
+  - FREEZING
+--- !u!1 &2016594352769332473
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2016594352769332455}
+  - component: {fileID: 2016594352769332453}
+  m_Layer: 11
+  m_Name: 02 Row (3)
+  m_TagString: Block
+  m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2016594352769332455
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2016594352769332473}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.98, y: 4.66, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 456945214432692314}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2016594352769332453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2016594352769332473}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c457f842bc3783429c6af74d986e673, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blockType: 1
+  maxHealth: 15
+  blockLink:
+  - STANDARD
+  - TRIANGLE_TOP_RIGHT
+  - TRIANGLE_RIGHT_BOTTOM
+  - TRIANGLE_BOTTOM_LEFT
+  - TRIANGLE_LEFT_TOP
+  - PINNED
+  - METAL
+  - PLUS_BALL
+  - GEM
+  - ROCKET
+  - THREE_DIRRECTION_UP
+  - CANON
+  - PORTAL_IN
+  - PORTAL_OUT
+  - LASER_VERTICAL
+  - LASER_HORIZONTAL
+  - LASER_BOTH
+  - WIPE_BAR_CLOCKWISE
+  - WIPE_BAR_COUNTER_CLOCKWISET
+  - LOCKABLE
+  - LIGHTNING
+  - ICICLE
+  - FREEZING
+--- !u!1 &2235132208720564124
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2235132208720564098}
+  - component: {fileID: 2235132208720564096}
+  m_Layer: 11
+  m_Name: 06 Row
+  m_TagString: Block
+  m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2235132208720564098
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2235132208720564124}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.983, y: 3.19, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 456945214432692314}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2235132208720564096
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2235132208720564124}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c457f842bc3783429c6af74d986e673, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blockType: 1
+  maxHealth: 10
+  blockLink:
+  - STANDARD
+  - TRIANGLE_TOP_RIGHT
+  - TRIANGLE_RIGHT_BOTTOM
+  - TRIANGLE_BOTTOM_LEFT
+  - TRIANGLE_LEFT_TOP
+  - PINNED
+  - METAL
+  - PLUS_BALL
+  - GEM
+  - ROCKET
+  - THREE_DIRRECTION_UP
+  - CANON
+  - PORTAL_IN
+  - PORTAL_OUT
+  - LASER_VERTICAL
+  - LASER_HORIZONTAL
+  - LASER_BOTH
+  - WIPE_BAR_CLOCKWISE
+  - WIPE_BAR_COUNTER_CLOCKWISET
+  - LOCKABLE
+  - LIGHTNING
+  - ICICLE
+  - FREEZING
+--- !u!1 &2695693735801594385
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4878160483771230485}
+  - component: {fileID: 7016994548710922981}
+  m_Layer: 0
+  m_Name: Level 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4878160483771230485
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2695693735801594385}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1891440161682075110}
+  - {fileID: 456945214432692314}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7016994548710922981
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2695693735801594385}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afb8793f564950a4caf76203dcc29038, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  level: 2
+  gameMode: 0
+  levelScale: 0.8181818
+  defaultDistanceEaBlock: 0.6
+  defaultBallPosY: 0.14
+  defaultBallRadius: 0.14
+  numberInitialBall: 5
+  ballSpeed: 14
+  reward: 200
+--- !u!1 &2815578293292041567
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2815578293292041537}
+  - component: {fileID: 2815578293292041539}
+  m_Layer: 11
+  m_Name: 01 Row (1)
+  m_TagString: Block
+  m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2815578293292041537
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2815578293292041567}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.96, y: 3.68, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 456945214432692314}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2815578293292041539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2815578293292041567}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c457f842bc3783429c6af74d986e673, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blockType: 1
+  maxHealth: 20
+  blockLink:
+  - STANDARD
+  - TRIANGLE_TOP_RIGHT
+  - TRIANGLE_RIGHT_BOTTOM
+  - TRIANGLE_BOTTOM_LEFT
+  - TRIANGLE_LEFT_TOP
+  - PINNED
+  - METAL
+  - PLUS_BALL
+  - GEM
+  - ROCKET
+  - THREE_DIRRECTION_UP
+  - CANON
+  - PORTAL_IN
+  - PORTAL_OUT
+  - LASER_VERTICAL
+  - LASER_HORIZONTAL
+  - LASER_BOTH
+  - WIPE_BAR_CLOCKWISE
+  - WIPE_BAR_COUNTER_CLOCKWISET
+  - LOCKABLE
+  - LIGHTNING
+  - ICICLE
+  - FREEZING
+--- !u!1 &2856286781044439221
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2856286781044439211}
+  - component: {fileID: 2856286781044439209}
+  m_Layer: 11
+  m_Name: 02 Row (4)
+  m_TagString: Block
+  m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2856286781044439211
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2856286781044439221}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.98, y: 5.15, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 456945214432692314}
+  m_RootOrder: 20
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2856286781044439209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2856286781044439221}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c457f842bc3783429c6af74d986e673, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blockType: 1
+  maxHealth: 5
+  blockLink:
+  - STANDARD
+  - TRIANGLE_TOP_RIGHT
+  - TRIANGLE_RIGHT_BOTTOM
+  - TRIANGLE_BOTTOM_LEFT
+  - TRIANGLE_LEFT_TOP
+  - PINNED
+  - METAL
+  - PLUS_BALL
+  - GEM
+  - ROCKET
+  - THREE_DIRRECTION_UP
+  - CANON
+  - PORTAL_IN
+  - PORTAL_OUT
+  - LASER_VERTICAL
+  - LASER_HORIZONTAL
+  - LASER_BOTH
+  - WIPE_BAR_CLOCKWISE
+  - WIPE_BAR_COUNTER_CLOCKWISET
+  - LOCKABLE
+  - LIGHTNING
+  - ICICLE
+  - FREEZING
+--- !u!1 &3268364782622505564
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3268364782622505538}
+  - component: {fileID: 3268364782622505536}
+  m_Layer: 11
+  m_Name: 03 Row (1)
+  m_TagString: Block
+  m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3268364782622505538
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3268364782622505564}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.96, y: 3.68, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 456945214432692314}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3268364782622505536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3268364782622505564}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c457f842bc3783429c6af74d986e673, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blockType: 1
+  maxHealth: 50
+  blockLink:
+  - STANDARD
+  - TRIANGLE_TOP_RIGHT
+  - TRIANGLE_RIGHT_BOTTOM
+  - TRIANGLE_BOTTOM_LEFT
+  - TRIANGLE_LEFT_TOP
+  - PINNED
+  - METAL
+  - PLUS_BALL
+  - GEM
+  - ROCKET
+  - THREE_DIRRECTION_UP
+  - CANON
+  - PORTAL_IN
+  - PORTAL_OUT
+  - LASER_VERTICAL
+  - LASER_HORIZONTAL
+  - LASER_BOTH
+  - WIPE_BAR_CLOCKWISE
+  - WIPE_BAR_COUNTER_CLOCKWISET
+  - LOCKABLE
+  - LIGHTNING
+  - ICICLE
+  - FREEZING
+--- !u!1 &3301717847755023702
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3301717847755023688}
+  - component: {fileID: 3301717847755023690}
+  m_Layer: 11
+  m_Name: 01 Row (3)
+  m_TagString: Block
+  m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3301717847755023688
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3301717847755023702}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.96, y: 4.66, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 456945214432692314}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3301717847755023690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3301717847755023702}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c457f842bc3783429c6af74d986e673, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blockType: 1
+  maxHealth: 20
+  blockLink:
+  - STANDARD
+  - TRIANGLE_TOP_RIGHT
+  - TRIANGLE_RIGHT_BOTTOM
+  - TRIANGLE_BOTTOM_LEFT
+  - TRIANGLE_LEFT_TOP
+  - PINNED
+  - METAL
+  - PLUS_BALL
+  - GEM
+  - ROCKET
+  - THREE_DIRRECTION_UP
+  - CANON
+  - PORTAL_IN
+  - PORTAL_OUT
+  - LASER_VERTICAL
+  - LASER_HORIZONTAL
+  - LASER_BOTH
+  - WIPE_BAR_CLOCKWISE
+  - WIPE_BAR_COUNTER_CLOCKWISET
+  - LOCKABLE
+  - LIGHTNING
+  - ICICLE
+  - FREEZING
+--- !u!1 &3832492296648752281
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3832492296648752263}
+  - component: {fileID: 3832492296648752261}
+  m_Layer: 11
+  m_Name: 03 Row
+  m_TagString: Block
+  m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3832492296648752263
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3832492296648752281}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.49, y: 3.19, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 456945214432692314}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3832492296648752261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3832492296648752281}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c457f842bc3783429c6af74d986e673, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blockType: 1
+  maxHealth: 10
+  blockLink:
+  - STANDARD
+  - TRIANGLE_TOP_RIGHT
+  - TRIANGLE_RIGHT_BOTTOM
+  - TRIANGLE_BOTTOM_LEFT
+  - TRIANGLE_LEFT_TOP
+  - PINNED
+  - METAL
+  - PLUS_BALL
+  - GEM
+  - ROCKET
+  - THREE_DIRRECTION_UP
+  - CANON
+  - PORTAL_IN
+  - PORTAL_OUT
+  - LASER_VERTICAL
+  - LASER_HORIZONTAL
+  - LASER_BOTH
+  - WIPE_BAR_CLOCKWISE
+  - WIPE_BAR_COUNTER_CLOCKWISET
+  - LOCKABLE
+  - LIGHTNING
+  - ICICLE
+  - FREEZING
+--- !u!1 &3861617866647380285
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1891440161682075110}
+  - component: {fileID: 2801794423174644860}
+  m_Layer: 0
+  m_Name: Ball Controller
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1891440161682075110
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3861617866647380285}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4878160483771230485}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2801794423174644860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3861617866647380285}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5530e937c88edf246a2e8f51a7a60747, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &4103689955761855396
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4103689955761855418}
+  - component: {fileID: 4103689955761855416}
+  m_Layer: 11
+  m_Name: 01 Row (2)
+  m_TagString: Block
+  m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4103689955761855418
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4103689955761855396}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.96, y: 4.17, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 456945214432692314}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4103689955761855416
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4103689955761855396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c457f842bc3783429c6af74d986e673, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blockType: 1
+  maxHealth: 20
+  blockLink:
+  - STANDARD
+  - TRIANGLE_TOP_RIGHT
+  - TRIANGLE_RIGHT_BOTTOM
+  - TRIANGLE_BOTTOM_LEFT
+  - TRIANGLE_LEFT_TOP
+  - PINNED
+  - METAL
+  - PLUS_BALL
+  - GEM
+  - ROCKET
+  - THREE_DIRRECTION_UP
+  - CANON
+  - PORTAL_IN
+  - PORTAL_OUT
+  - LASER_VERTICAL
+  - LASER_HORIZONTAL
+  - LASER_BOTH
+  - WIPE_BAR_CLOCKWISE
+  - WIPE_BAR_COUNTER_CLOCKWISET
+  - LOCKABLE
+  - LIGHTNING
+  - ICICLE
+  - FREEZING
+--- !u!1 &4248910101705614947
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4248910101705614973}
+  - component: {fileID: 4248910101705614975}
+  m_Layer: 11
+  m_Name: 04 Row (4)
+  m_TagString: Block
+  m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4248910101705614973
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4248910101705614947}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 5.15, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 456945214432692314}
+  m_RootOrder: 22
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4248910101705614975
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4248910101705614947}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c457f842bc3783429c6af74d986e673, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blockType: 1
+  maxHealth: 5
+  blockLink:
+  - STANDARD
+  - TRIANGLE_TOP_RIGHT
+  - TRIANGLE_RIGHT_BOTTOM
+  - TRIANGLE_BOTTOM_LEFT
+  - TRIANGLE_LEFT_TOP
+  - PINNED
+  - METAL
+  - PLUS_BALL
+  - GEM
+  - ROCKET
+  - THREE_DIRRECTION_UP
+  - CANON
+  - PORTAL_IN
+  - PORTAL_OUT
+  - LASER_VERTICAL
+  - LASER_HORIZONTAL
+  - LASER_BOTH
+  - WIPE_BAR_CLOCKWISE
+  - WIPE_BAR_COUNTER_CLOCKWISET
+  - LOCKABLE
+  - LIGHTNING
+  - ICICLE
+  - FREEZING
+--- !u!1 &4319364900292544524
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4319364900292544530}
+  - component: {fileID: 4319364900292544528}
+  m_Layer: 11
+  m_Name: 06 Row (4)
+  m_TagString: Block
+  m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4319364900292544530
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4319364900292544524}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.98, y: 5.15, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 456945214432692314}
+  m_RootOrder: 24
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4319364900292544528
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4319364900292544524}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c457f842bc3783429c6af74d986e673, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blockType: 1
+  maxHealth: 5
+  blockLink:
+  - STANDARD
+  - TRIANGLE_TOP_RIGHT
+  - TRIANGLE_RIGHT_BOTTOM
+  - TRIANGLE_BOTTOM_LEFT
+  - TRIANGLE_LEFT_TOP
+  - PINNED
+  - METAL
+  - PLUS_BALL
+  - GEM
+  - ROCKET
+  - THREE_DIRRECTION_UP
+  - CANON
+  - PORTAL_IN
+  - PORTAL_OUT
+  - LASER_VERTICAL
+  - LASER_HORIZONTAL
+  - LASER_BOTH
+  - WIPE_BAR_CLOCKWISE
+  - WIPE_BAR_COUNTER_CLOCKWISET
+  - LOCKABLE
+  - LIGHTNING
+  - ICICLE
+  - FREEZING
+--- !u!1 &4648302003075859909
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4648302003075859931}
+  - component: {fileID: 4648302003075859929}
+  m_Layer: 11
+  m_Name: 02 Row
+  m_TagString: Block
+  m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4648302003075859931
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4648302003075859909}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.98, y: 3.19, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 456945214432692314}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4648302003075859929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4648302003075859909}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c457f842bc3783429c6af74d986e673, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blockType: 1
+  maxHealth: 10
+  blockLink:
+  - STANDARD
+  - TRIANGLE_TOP_RIGHT
+  - TRIANGLE_RIGHT_BOTTOM
+  - TRIANGLE_BOTTOM_LEFT
+  - TRIANGLE_LEFT_TOP
+  - PINNED
+  - METAL
+  - PLUS_BALL
+  - GEM
+  - ROCKET
+  - THREE_DIRRECTION_UP
+  - CANON
+  - PORTAL_IN
+  - PORTAL_OUT
+  - LASER_VERTICAL
+  - LASER_HORIZONTAL
+  - LASER_BOTH
+  - WIPE_BAR_CLOCKWISE
+  - WIPE_BAR_COUNTER_CLOCKWISET
+  - LOCKABLE
+  - LIGHTNING
+  - ICICLE
+  - FREEZING
+--- !u!1 &5190546688641044351
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 456945214432692314}
+  - component: {fileID: 4266746977118958331}
+  - component: {fileID: 8514634530534473659}
+  - component: {fileID: 7001119676644307675}
+  m_Layer: 11
+  m_Name: Block Manager
+  m_TagString: Block
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &456945214432692314
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5190546688641044351}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 8595157517044056420}
+  - {fileID: 4648302003075859931}
+  - {fileID: 3832492296648752263}
+  - {fileID: 5609368640899202654}
+  - {fileID: 8090122806010367447}
+  - {fileID: 2235132208720564098}
+  - {fileID: 5251888429773643232}
+  - {fileID: 2815578293292041537}
+  - {fileID: 7691800997078563853}
+  - {fileID: 3268364782622505538}
+  - {fileID: 4103689955761855418}
+  - {fileID: 1344555006811434652}
+  - {fileID: 6829833819727616510}
+  - {fileID: 1508333805387128487}
+  - {fileID: 3301717847755023688}
+  - {fileID: 2016594352769332455}
+  - {fileID: 391268771944345585}
+  - {fileID: 7444703615457394542}
+  - {fileID: 5529848024536115156}
+  - {fileID: 5565942085022078141}
+  - {fileID: 2856286781044439211}
+  - {fileID: 1220853248333405761}
+  - {fileID: 4248910101705614973}
+  - {fileID: 5207654731940305325}
+  - {fileID: 4319364900292544530}
+  - {fileID: 5817387601511463166}
+  m_Father: {fileID: 4878160483771230485}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4266746977118958331
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5190546688641044351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd589f39eb0881e478d7efbd6c16c66d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!50 &8514634530534473659
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5190546688641044351}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1000000
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 1
+  m_Constraints: 7
+--- !u!66 &7001119676644307675
+CompositeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5190546688641044351}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_GeometryType: 0
+  m_GenerationType: 0
+  m_EdgeRadius: 0
+  m_ColliderPaths: []
+  m_CompositePaths:
+    m_Paths: []
+  m_VertexDistance: 0.0005
+  m_OffsetDistance: 0.01
+--- !u!1 &5207654731940305331
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5207654731940305325}
+  - component: {fileID: 5207654731940305327}
+  m_Layer: 11
+  m_Name: 05 Row (4)
+  m_TagString: Block
+  m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5207654731940305325
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5207654731940305331}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.49, y: 5.15, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 456945214432692314}
+  m_RootOrder: 23
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5207654731940305327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5207654731940305331}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c457f842bc3783429c6af74d986e673, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blockType: 1
+  maxHealth: 5
+  blockLink:
+  - STANDARD
+  - TRIANGLE_TOP_RIGHT
+  - TRIANGLE_RIGHT_BOTTOM
+  - TRIANGLE_BOTTOM_LEFT
+  - TRIANGLE_LEFT_TOP
+  - PINNED
+  - METAL
+  - PLUS_BALL
+  - GEM
+  - ROCKET
+  - THREE_DIRRECTION_UP
+  - CANON
+  - PORTAL_IN
+  - PORTAL_OUT
+  - LASER_VERTICAL
+  - LASER_HORIZONTAL
+  - LASER_BOTH
+  - WIPE_BAR_CLOCKWISE
+  - WIPE_BAR_COUNTER_CLOCKWISET
+  - LOCKABLE
+  - LIGHTNING
+  - ICICLE
+  - FREEZING
+--- !u!1 &5251888429773643262
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5251888429773643232}
+  - component: {fileID: 5251888429773643234}
+  m_Layer: 11
+  m_Name: 07 Row
+  m_TagString: Block
+  m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5251888429773643232
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5251888429773643262}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.96, y: 3.19, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 456945214432692314}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5251888429773643234
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5251888429773643262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c457f842bc3783429c6af74d986e673, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blockType: 1
+  maxHealth: 50
+  blockLink:
+  - STANDARD
+  - TRIANGLE_TOP_RIGHT
+  - TRIANGLE_RIGHT_BOTTOM
+  - TRIANGLE_BOTTOM_LEFT
+  - TRIANGLE_LEFT_TOP
+  - PINNED
+  - METAL
+  - PLUS_BALL
+  - GEM
+  - ROCKET
+  - THREE_DIRRECTION_UP
+  - CANON
+  - PORTAL_IN
+  - PORTAL_OUT
+  - LASER_VERTICAL
+  - LASER_HORIZONTAL
+  - LASER_BOTH
+  - WIPE_BAR_CLOCKWISE
+  - WIPE_BAR_COUNTER_CLOCKWISET
+  - LOCKABLE
+  - LIGHTNING
+  - ICICLE
+  - FREEZING
+--- !u!1 &5529848024536115146
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5529848024536115156}
+  - component: {fileID: 5529848024536115158}
+  m_Layer: 11
+  m_Name: 05 Row (3)
+  m_TagString: Block
+  m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5529848024536115156
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5529848024536115146}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.96, y: 4.66, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 456945214432692314}
+  m_RootOrder: 18
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5529848024536115158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5529848024536115146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c457f842bc3783429c6af74d986e673, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blockType: 1
+  maxHealth: 50
+  blockLink:
+  - STANDARD
+  - TRIANGLE_TOP_RIGHT
+  - TRIANGLE_RIGHT_BOTTOM
+  - TRIANGLE_BOTTOM_LEFT
+  - TRIANGLE_LEFT_TOP
+  - PINNED
+  - METAL
+  - PLUS_BALL
+  - GEM
+  - ROCKET
+  - THREE_DIRRECTION_UP
+  - CANON
+  - PORTAL_IN
+  - PORTAL_OUT
+  - LASER_VERTICAL
+  - LASER_HORIZONTAL
+  - LASER_BOTH
+  - WIPE_BAR_CLOCKWISE
+  - WIPE_BAR_COUNTER_CLOCKWISET
+  - LOCKABLE
+  - LIGHTNING
+  - ICICLE
+  - FREEZING
+--- !u!1 &5565942085022078115
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5565942085022078141}
+  - component: {fileID: 5565942085022078143}
+  m_Layer: 11
+  m_Name: 01 Row (4)
+  m_TagString: Block
+  m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5565942085022078141
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5565942085022078115}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.47, y: 5.15, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 456945214432692314}
+  m_RootOrder: 19
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5565942085022078143
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5565942085022078115}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c457f842bc3783429c6af74d986e673, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blockType: 1
+  maxHealth: 5
+  blockLink:
+  - STANDARD
+  - TRIANGLE_TOP_RIGHT
+  - TRIANGLE_RIGHT_BOTTOM
+  - TRIANGLE_BOTTOM_LEFT
+  - TRIANGLE_LEFT_TOP
+  - PINNED
+  - METAL
+  - PLUS_BALL
+  - GEM
+  - ROCKET
+  - THREE_DIRRECTION_UP
+  - CANON
+  - PORTAL_IN
+  - PORTAL_OUT
+  - LASER_VERTICAL
+  - LASER_HORIZONTAL
+  - LASER_BOTH
+  - WIPE_BAR_CLOCKWISE
+  - WIPE_BAR_COUNTER_CLOCKWISET
+  - LOCKABLE
+  - LIGHTNING
+  - ICICLE
+  - FREEZING
+--- !u!1 &5609368640899202624
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5609368640899202654}
+  - component: {fileID: 5609368640899202652}
+  m_Layer: 11
+  m_Name: 04 Row
+  m_TagString: Block
+  m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5609368640899202654
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5609368640899202624}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.0009999871, y: 3.19, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 456945214432692314}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5609368640899202652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5609368640899202624}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c457f842bc3783429c6af74d986e673, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blockType: 1
+  maxHealth: 10
+  blockLink:
+  - STANDARD
+  - TRIANGLE_TOP_RIGHT
+  - TRIANGLE_RIGHT_BOTTOM
+  - TRIANGLE_BOTTOM_LEFT
+  - TRIANGLE_LEFT_TOP
+  - PINNED
+  - METAL
+  - PLUS_BALL
+  - GEM
+  - ROCKET
+  - THREE_DIRRECTION_UP
+  - CANON
+  - PORTAL_IN
+  - PORTAL_OUT
+  - LASER_VERTICAL
+  - LASER_HORIZONTAL
+  - LASER_BOTH
+  - WIPE_BAR_CLOCKWISE
+  - WIPE_BAR_COUNTER_CLOCKWISET
+  - LOCKABLE
+  - LIGHTNING
+  - ICICLE
+  - FREEZING
+--- !u!1 &5817387601511463136
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5817387601511463166}
+  - component: {fileID: 5817387601511463164}
+  m_Layer: 11
+  m_Name: 07 Row (4)
+  m_TagString: Block
+  m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5817387601511463166
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5817387601511463136}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.47, y: 5.15, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 456945214432692314}
+  m_RootOrder: 25
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5817387601511463164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5817387601511463136}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c457f842bc3783429c6af74d986e673, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blockType: 1
+  maxHealth: 5
+  blockLink:
+  - STANDARD
+  - TRIANGLE_TOP_RIGHT
+  - TRIANGLE_RIGHT_BOTTOM
+  - TRIANGLE_BOTTOM_LEFT
+  - TRIANGLE_LEFT_TOP
+  - PINNED
+  - METAL
+  - PLUS_BALL
+  - GEM
+  - ROCKET
+  - THREE_DIRRECTION_UP
+  - CANON
+  - PORTAL_IN
+  - PORTAL_OUT
+  - LASER_VERTICAL
+  - LASER_HORIZONTAL
+  - LASER_BOTH
+  - WIPE_BAR_CLOCKWISE
+  - WIPE_BAR_COUNTER_CLOCKWISET
+  - LOCKABLE
+  - LIGHTNING
+  - ICICLE
+  - FREEZING
+--- !u!1 &6829833819727616480
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6829833819727616510}
+  - component: {fileID: 6829833819727616508}
+  m_Layer: 11
+  m_Name: 03 Row (2)
+  m_TagString: Block
+  m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6829833819727616510
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6829833819727616480}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.49, y: 4.17, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 456945214432692314}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6829833819727616508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6829833819727616480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c457f842bc3783429c6af74d986e673, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blockType: 1
+  maxHealth: 15
+  blockLink:
+  - STANDARD
+  - TRIANGLE_TOP_RIGHT
+  - TRIANGLE_RIGHT_BOTTOM
+  - TRIANGLE_BOTTOM_LEFT
+  - TRIANGLE_LEFT_TOP
+  - PINNED
+  - METAL
+  - PLUS_BALL
+  - GEM
+  - ROCKET
+  - THREE_DIRRECTION_UP
+  - CANON
+  - PORTAL_IN
+  - PORTAL_OUT
+  - LASER_VERTICAL
+  - LASER_HORIZONTAL
+  - LASER_BOTH
+  - WIPE_BAR_CLOCKWISE
+  - WIPE_BAR_COUNTER_CLOCKWISET
+  - LOCKABLE
+  - LIGHTNING
+  - ICICLE
+  - FREEZING
+--- !u!1 &7444703615457394544
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7444703615457394542}
+  - component: {fileID: 7444703615457394540}
+  m_Layer: 11
+  m_Name: 04 Row (3)
+  m_TagString: Block
+  m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7444703615457394542
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7444703615457394544}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.98, y: 4.66, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 456945214432692314}
+  m_RootOrder: 17
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7444703615457394540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7444703615457394544}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c457f842bc3783429c6af74d986e673, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blockType: 1
+  maxHealth: 15
+  blockLink:
+  - STANDARD
+  - TRIANGLE_TOP_RIGHT
+  - TRIANGLE_RIGHT_BOTTOM
+  - TRIANGLE_BOTTOM_LEFT
+  - TRIANGLE_LEFT_TOP
+  - PINNED
+  - METAL
+  - PLUS_BALL
+  - GEM
+  - ROCKET
+  - THREE_DIRRECTION_UP
+  - CANON
+  - PORTAL_IN
+  - PORTAL_OUT
+  - LASER_VERTICAL
+  - LASER_HORIZONTAL
+  - LASER_BOTH
+  - WIPE_BAR_CLOCKWISE
+  - WIPE_BAR_COUNTER_CLOCKWISET
+  - LOCKABLE
+  - LIGHTNING
+  - ICICLE
+  - FREEZING
+--- !u!1 &7691800997078563859
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7691800997078563853}
+  - component: {fileID: 7691800997078563855}
+  m_Layer: 11
+  m_Name: 02 Row (1)
+  m_TagString: Block
+  m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7691800997078563853
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7691800997078563859}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 3.68, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 456945214432692314}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7691800997078563855
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7691800997078563859}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c457f842bc3783429c6af74d986e673, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blockType: 1
+  maxHealth: 15
+  blockLink:
+  - STANDARD
+  - TRIANGLE_TOP_RIGHT
+  - TRIANGLE_RIGHT_BOTTOM
+  - TRIANGLE_BOTTOM_LEFT
+  - TRIANGLE_LEFT_TOP
+  - PINNED
+  - METAL
+  - PLUS_BALL
+  - GEM
+  - ROCKET
+  - THREE_DIRRECTION_UP
+  - CANON
+  - PORTAL_IN
+  - PORTAL_OUT
+  - LASER_VERTICAL
+  - LASER_HORIZONTAL
+  - LASER_BOTH
+  - WIPE_BAR_CLOCKWISE
+  - WIPE_BAR_COUNTER_CLOCKWISET
+  - LOCKABLE
+  - LIGHTNING
+  - ICICLE
+  - FREEZING
+--- !u!1 &8090122806010367433
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8090122806010367447}
+  - component: {fileID: 8090122806010367445}
+  m_Layer: 11
+  m_Name: 05 Row
+  m_TagString: Block
+  m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8090122806010367447
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8090122806010367433}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.49199998, y: 3.19, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 456945214432692314}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8090122806010367445
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8090122806010367433}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c457f842bc3783429c6af74d986e673, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blockType: 1
+  maxHealth: 10
+  blockLink:
+  - STANDARD
+  - TRIANGLE_TOP_RIGHT
+  - TRIANGLE_RIGHT_BOTTOM
+  - TRIANGLE_BOTTOM_LEFT
+  - TRIANGLE_LEFT_TOP
+  - PINNED
+  - METAL
+  - PLUS_BALL
+  - GEM
+  - ROCKET
+  - THREE_DIRRECTION_UP
+  - CANON
+  - PORTAL_IN
+  - PORTAL_OUT
+  - LASER_VERTICAL
+  - LASER_HORIZONTAL
+  - LASER_BOTH
+  - WIPE_BAR_CLOCKWISE
+  - WIPE_BAR_COUNTER_CLOCKWISET
+  - LOCKABLE
+  - LIGHTNING
+  - ICICLE
+  - FREEZING
+--- !u!1 &8595157517044056442
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8595157517044056420}
+  - component: {fileID: 8595157517044056422}
+  m_Layer: 11
+  m_Name: 01 Row
+  m_TagString: Block
+  m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8595157517044056420
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8595157517044056442}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.96, y: 3.19, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 456945214432692314}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8595157517044056422
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8595157517044056442}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c457f842bc3783429c6af74d986e673, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blockType: 1
+  maxHealth: 25
+  blockLink:
+  - STANDARD
+  - TRIANGLE_TOP_RIGHT
+  - TRIANGLE_RIGHT_BOTTOM
+  - TRIANGLE_BOTTOM_LEFT
+  - TRIANGLE_LEFT_TOP
+  - PINNED
+  - METAL
+  - PLUS_BALL
+  - GEM
+  - ROCKET
+  - THREE_DIRRECTION_UP
+  - CANON
+  - PORTAL_IN
+  - PORTAL_OUT
+  - LASER_VERTICAL
+  - LASER_HORIZONTAL
+  - LASER_BOTH
+  - WIPE_BAR_CLOCKWISE
+  - WIPE_BAR_COUNTER_CLOCKWISET
+  - LOCKABLE
+  - LIGHTNING
+  - ICICLE
+  - FREEZING
